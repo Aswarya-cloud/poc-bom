@@ -277,11 +277,11 @@
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
-            <url>http://localhost:8081/repository/maven-releases/</url> <!-- URL for release repository -->
+            <url>http://165.22.21.12:31983/:8081/repository/maven-releases/</url> <!-- URL for release repository -->
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>http://localhost:8081/repository/maven-snapshots/</url> <!-- URL for snapshot repository -->
+            <url>http://165.22.21.12:31983/repository/maven-snapshots/</url> <!-- URL for snapshot repository -->
         </snapshotRepository>
     </distributionManagement>
 </project>
